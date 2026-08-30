@@ -97,7 +97,7 @@ The app will be available at `http://localhost:8501`.
 ## 9. Deployment Details
 Deployed on **Streamlit Community Cloud** (free tier), which builds and serves the app directly from this GitHub repository — satisfying the assignment's cloud deployment requirement without needing a managed cloud account or Docker.
 
-**Live app URL**: `<add your deployed Streamlit Cloud URL here>`
+**Live app URL**: `https://smartcitycomplain-gruypjdmnyrub8jkxtmwd7.streamlit.app/`
 
 To deploy your own copy: push this repo to GitHub (public) → go to [share.streamlit.io](https://share.streamlit.io) → sign in with GitHub → "New app" → select this repo, branch `main`, main file `app.py` → Deploy.
 
