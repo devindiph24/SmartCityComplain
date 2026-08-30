@@ -34,7 +34,7 @@ if submit_clicked:
     if not message.strip():
         st.warning("Please describe the issue first.")
     else:
-        # Stage 1: toxicity check
+        
         tox_pred = toxicity_model.predict([message])[0]
         tox_proba = toxicity_model.predict_proba([message])[0]
         tox_classes = list(toxicity_model.classes_)
@@ -47,7 +47,7 @@ if submit_clicked:
                 f"moderator instead of a department."
             )
         else:
-            # Stage 2: category routing (only shown for non-toxic submissions)
+            
             cat_pred = category_model.predict([message])[0]
             cat_proba = category_model.predict_proba([message])[0]
             cat_classes = list(category_model.classes_)
