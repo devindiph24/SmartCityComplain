@@ -1,15 +1,4 @@
-"""
-Generates a synthetic-but-realistic dataset of citizen complaints for a
-smart-city complaint routing system, modeled on real municipal 311/service-
-request categories and phrasing patterns.
 
-NOTE ON DATA PROVENANCE: real multi-category 311 complaint datasets (e.g.
-NYC/Chicago Open Data) require API/domain access this environment doesn't
-have. This generator produces varied, realistic complaint text using
-templates + randomized details (streets, times, specifics) so the app has
-a genuine multi-class dataset to train and evaluate on. See README for
-details and a note on swapping in a real dataset later.
-"""
 import random
 import pandas as pd
 
