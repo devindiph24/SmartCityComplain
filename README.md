@@ -81,7 +81,7 @@ The toxicity model, trained only on general online comments, initially produced 
 
 ## 8. Local Setup Instructions
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/devindiph24/SmartCityComplain/blob/main/README.md>
 cd smart-city-complaints
 pip install -r requirements.txt
 
