@@ -6,8 +6,8 @@ st.set_page_config(page_title="Smart City Complaint Router", page_icon="🏙️"
 
 @st.cache_resource
 def load_models():
-    category_model = joblib.load("model/complaint_classifier.joblib")
-    toxicity_model = joblib.load("model/toxic_classifier.joblib")
+    category_model = joblib.load("complaint_classifier.joblib")
+    toxicity_model = joblib.load("toxic_classifier.joblib")
     return category_model, toxicity_model
 
 
