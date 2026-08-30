@@ -1,6 +1,6 @@
 # Smart City Complaint Router
 
-An end-to-end AI web application that automatically **routes citizen complaints to the correct city department** and **flags abusive submissions for moderator review** — the two things a real municipal 311/service-request system needs to do before a human ever reads the message. Built for the MSc AI *End-to-End AI Application Development and Cloud Deployment* assignment.
+An end-to-end AI web application that automatically **routes citizen complaints to the correct city department** and **flags abusive submissions for moderator review** — the two things a real municipal 311/service-request system needs to do before a human ever reads the message.
 
 ## 1. Problem Statement
 Cities receive large volumes of non-emergency complaints (potholes, missed garbage collection, noise, water/power outages, park damage, safety hazards) through phone, web, or app-based 311-style systems. Two problems slow this down: (1) manually reading and routing every complaint to the correct department is slow and doesn't scale, and (2) abusive or harassing submissions still need to be identified before staff engage with them, ideally automatically.
